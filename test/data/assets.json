@@ -1,0 +1,11 @@
+{
+  "packages/cupertino_icons/assets/CupertinoIcons.ttf": [
+    "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+  ],
+  "assets/i18n/de-DE.json": ["assets/i18n/de-DE.json"],
+  "assets/i18n/en-US.json": ["assets/i18n/en-US.json"],
+  "assets/i18n/es-AR.json": ["assets/i18n/es-AR.json"],
+  "assets/i18n/es.json": ["assets/i18n/es.json"],
+  "assets/i18n/pt-BR.json": ["assets/i18n/pt-BR.json"],
+  "assets/i18n/pt-PT.json": ["assets/i18n/pt-PT.json"]
+}
