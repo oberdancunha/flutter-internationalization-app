@@ -19,9 +19,7 @@ O aplicativo precisa ser customizado com o seu próprio conjunto de textos e men
 
 ## O Aplicativo
 
-A ideia do aplicativo é bem simples. Basta adicionar em **assets/i18n** o arquivo json com os textos e mensagens traduzidos no respectivo idioma (e país se for o caso) e reiniciar a aplicação sem a necessidade de alterar código, nem o arquivo **pubspec.yaml**. Nos testes o _hot restart_ foi suficiente quando um novo arquivo foi adicionado. No entanto, ao remover um arquivo é necessário parar a aplicação e iniciá-la novamente.
-
-![Alt Text](images/new_language_file.gif)
+A construção usou o framework flutter. O flutter_modular foi usado para a injeção de dependências e definição de rotas. Apesar de haver apenas uma, a aplicação está preparada para receber outras. Além disso, houve um esforço para separar as responsabilidades o máximo possível, possibilitando cobrir boa parte da aplicação com testes.
 
 ### Arquivo json
 
@@ -47,9 +45,11 @@ O idioma usado no aplicativo é baseado no idioma do dispositivo, dadas as segui
 
   ![Alt Text](images/language_not_found.gif)
 
-## Características técnicas
+### Adicionar novos idiomas
 
-A construção usou o framework flutter. O flutter_modular foi usado para a injeção de dependências e definição de rotas. Apesar de haver apenas uma, a aplicação está preparada para receber outras. Além disso, houve um esforço para separar as responsabilidades o máximo possível, possibilitando cobrir boa parte da aplicação com testes.
+A ideia do aplicativo é bem simples. Basta adicionar em **assets/i18n** o arquivo json com os textos e mensagens traduzidos no respectivo idioma (e país se for o caso) e reiniciar a aplicação sem a necessidade de alterar código, nem o arquivo **pubspec.yaml**. Nos testes o _hot restart_ foi suficiente ao adicionar um novo arquivo. No entanto, ao remover um arquivo é necessário parar a aplicação e iniciá-la novamente.
+
+![Alt Text](images/new_language_file.gif)
 
 ## Teste de integração
 
