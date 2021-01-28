@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../app_localizations.dart';
+import '../core/app_localizations.dart';
 
 class HomePage extends StatelessWidget {
   @override

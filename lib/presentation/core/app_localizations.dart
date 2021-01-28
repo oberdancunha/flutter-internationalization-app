@@ -3,11 +3,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:internationalizationapp/core/locale/i_locale_repository.dart';
 import 'package:intl/number_symbols_data.dart';
 
+import '../../core/locale/i_locale_repository.dart';
+import '../../infrastructure/locale/get_preferred_locale.dart';
 import 'app_localizations_delegate.dart';
-import 'infrastructure/locale/get_preferred_locale.dart';
 
 class AppLocalizations {
   final localeRepository = Modular.get<ILocaleRepository>();
