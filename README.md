@@ -19,7 +19,7 @@ O aplicativo precisa ser customizado com o seu próprio conjunto de textos e men
 
 ## O Aplicativo
 
-A construção usou o framework flutter. O flutter_modular foi usado para a injeção de dependências e definição de rotas. Apesar de haver apenas uma, a aplicação está preparada para receber outras. Além disso, houve um esforço para separar as responsabilidades o máximo possível, possibilitando cobrir boa parte da aplicação com testes.
+A construção usou o flutter toolkit. O flutter_modular foi usado para a injeção de dependências e definição de rotas. Apesar de haver apenas uma, a aplicação está preparada para receber outras. Além disso, houve um esforço para separar as responsabilidades o máximo possível, possibilitando cobrir boa parte da aplicação com testes.
 
 ### Arquivo json
 
